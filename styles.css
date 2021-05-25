@@ -71,6 +71,147 @@ body {
     display: none !important;
   }
 
+  .loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: black;
+    height: 100%;
+    width: 100%;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .loader img {
+    position: absolute;
+    ;
+    width: 15%;
+    height: auto;
+  }
+
+  .disappear {
+    animation: vanish 300ms forwards;
+
+  }
+
+  @keyframes vanish {
+    0% {
+      height: 100%;
+    }
+
+    5% {
+      height: 95%;
+    }
+
+    10% {
+      height: 90%;
+
+    }
+
+    15% {
+      height: 85%;
+    }
+
+    20% {
+      height: 80%;
+
+    }
+
+    25% {
+      height: 75%;
+    }
+
+    30% {
+      height: 70%;
+
+    }
+
+    35% {
+      height: 65%;
+    }
+
+    40% {
+      height: 60%;
+
+    }
+
+    45% {
+      height: 55%;
+    }
+
+    50% {
+      height: 50%;
+
+    }
+
+    55% {
+      height: 45%;
+    }
+
+    60% {
+      height: 40%;
+
+    }
+
+    65% {
+      height: 35%;
+    }
+
+    70% {
+      height: 30%;
+
+    }
+
+    75% {
+      height: 25%;
+    }
+
+    80% {
+      height: 20%;
+
+    }
+
+    85% {
+      height: 15%;
+    }
+
+    90% {
+      height: 10%;
+    }
+
+
+    95% {
+      height: 5%;
+    }
+
+
+
+    100% {
+      opacity: 1;
+      visibility: hidden;
+      height: 0%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  }
+
+
 }
 
 @media only screen and (max-width: 742px) {
@@ -80,6 +221,8 @@ body {
     margin-top: -40vmin;
     margin-left: -20vmin;
   }
+
+
 }
 
 
