@@ -1627,3 +1627,18 @@ footer .column i {
 
 
 /* flying page end */
+
+/* flying page modifications */
+@media only screen and (min-width: 930px) {
+  .opthead {
+    display: none !important;
+  }
+
+}
+
+@media only screen and (max-width: 930px) {
+  .carofly {
+    display: none !important;
+  }
+
+}
