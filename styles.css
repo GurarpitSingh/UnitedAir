@@ -1564,6 +1564,11 @@ h1.text-white.text-left.align-self-md-start.align-self-sm-center.display-4 {
   margin: 21vmin 0 0 0;
 }
 
+/* @media only screen and (max-width: 747px) {
+  .controlcols {
+    margin: 0 0 0 0;
+  }
+} */
 
 
 
