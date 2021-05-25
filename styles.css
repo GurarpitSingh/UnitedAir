@@ -415,7 +415,7 @@ body {
 
 
 * {
-  box-sizing: border-box;
+  box-sizing: border-box !important;
 
 }
 
@@ -708,7 +708,7 @@ header .navbar {
 
 .section-1 .row .col-md-6 .carousel-inner {
   border-radius: 0.3em;
-  z-index: ;
+
 }
 
 .section-1 .row .col-md-6:last-child {
@@ -1639,6 +1639,10 @@ footer .column i {
 @media only screen and (max-width: 930px) {
   .carofly {
     display: none !important;
+  }
+
+  .cokpitpic {
+    width: 80% !important;
   }
 
 }
