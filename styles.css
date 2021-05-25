@@ -211,7 +211,6 @@ body {
 
   }
 
-
 }
 
 @media only screen and (max-width: 742px) {
@@ -221,8 +220,6 @@ body {
     margin-top: -40vmin;
     margin-left: -20vmin;
   }
-
-
 }
 
 
@@ -1280,6 +1277,18 @@ nav {
   margin-left: 4vmin;
 }
 
+@media only screen and (max-width: 759px) {
+  .airjumbo {
+    margin-left: -5vmin !important;
+  }
+}
+
+@media only screen and (max-width: 542px) {
+  .airjumbo {
+    margin-left: -8vmin !important;
+  }
+}
+
 /* content airliner  end*/
 
 
@@ -1564,11 +1573,6 @@ h1.text-white.text-left.align-self-md-start.align-self-sm-center.display-4 {
   margin: 21vmin 0 0 0;
 }
 
-/* @media only screen and (max-width: 747px) {
-  .controlcols {
-    margin: 0 0 0 0;
-  }
-} */
 
 
 
