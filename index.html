@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="styles.css">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, maximum-scale=1">
+  <script src="JQscripts\skrollsrc\skroll.js" type="text/javascript"></script>
+  <script src="https://kit.fontawesome.com/52099bdb53.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css\animate.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+  <link rel="html" href="airliners.html">
+  <title>United Air:Dashboard</title>
+</head>
+
+<body>
+  <div class="loader">
+    <img src="images/load.gif" alt="">
+  </div>
+  <header class="header-airline">
+
+
+
+    <!-- <div class="container-fluid p-0">
+                                            <nav class="navbar navbar-expand-lg ">
+                                              <a class="navbar-brand pl-3" href="#">United Air</a>
+                                              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                                                <span class="navbar-toggler-icon"></span>
+                                              </button>
+                                              <div class="collapse navbar-collapse" id="navbarNav">
+                                                <div class="mr-auto">
+
+                                                </div>
+                                                <ul class="navbar-nav">
+                                                  <li class="nav-item active">
+                                                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                                                  </li>
+                                                  <li class="nav-item">
+                                                    <a class="nav-link" href="#">Flying</a>
+                                                  </li>
+                                                  <li class="nav-item">
+                                                    <a class="nav-link" href="#">Airliners</a>
+                                                  </li>
+                                                  <li class="nav-item">
+                                                    <a class="nav-link" href="#">Facts</a>
+                                                  </li>
+                                                </ul>
+                                              </div>
+                                            </nav>
+
+
+              </div> -->
+
+
+    <div class="container-fluid p-0">
+      <nav class="navbar navbar-expand-lg navbar-mainbg" style="padding-top: 5vmin;">
+        <a class="navbar-brand navbar-logo" href="index.html"><img src="images\transparent-United Air.png" alt=""
+            style="margin-top: -6vmin;"> </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars text-white"></i>
+        </button>
+        <div class="collapse navbar-collapse sticky-top" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto pr-5 sticky-top">
+            <div class="hori-selector">
+              <div class="left"></div>
+              <div class="right"></div>
+            </div>
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html"><i class=""></i>Dashboard</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="airliners.html"><i class=""></i>Airliners</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="flying.html"><i class=""></i>Flying</a>
+            </li>
+
+
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+
+
+    <div class="container text-left  mt-4">
+      <div class="row">
+        <div class="col-md-7 col-sm-12 homehead">
+          <div class="box w2 anim4 yellow ">
+            <h6>Hello There!</h6>
+            <h1>Say Yes To The World</h1>
+            <p>Your Trusted Partner To Guide To through Skies!<br>
+              Align To the Runway</p>
+            <a href="#mainnn"><button class="btn btn-link border-light px-5 py-2" type="button" name="button">
+                Lets Take Off!<i class="fas fa-plane-departure ml-2"></i></button></a>
+          </div>
+        </div>
+
+        <div class="col-md-5 col-sm-12 h-auto animate__animated animate__rollIn">
+
+
+          <!-- <div class="scrollme ">
+                                  <div class="animateme" data-when="exit" data-from="1" data-to="0" data-opacity="0" data-translatex="-600" style="opacity: 1; transform: translate3d(-1px, 0px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale3d(1, 1, 1);"> -->
+          <span data-tilt>
+            <img id="imgforback" data-tilt src="images/a380.png" alt=""
+              style="transform-style: preserve-3d; transform: translateZ(20px);"></span>
+
+
+          <!-- </div>
+                          </div> -->
+        </div>
+
+
+
+
+
+
+      </div>
+
+    </div>
+
+
+
+
+
+  </header>
+  <main id="mainnn">
+
+    <section class="section-1  ">
+
+
+
+      <div class="container  text-center">
+
+
+
+        <div class="row">
+
+          <div class="col-md-6">
+            <div class="box w2 anim4 yellow h2">
+              <div id="carouselExampleFade" class="carousel slide carousel-fade pt-2 " data-pause="false"
+                style="margin-top: 15%;" data-ride="carousel">
+                <div class="carousel-inner ">
+                  <div class="carousel-item active" data-interval="2000">
+                    <img src="images\carou1.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item" data-interval="2000">
+                    <img src="images\carou2.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item" data-interval="2000">
+                    <img src="images\carou0.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+
+          </div>
+          <div class="col-md-6">
+            <div class="box w4 anim6 blue">
+              <div class="panel text-left " style="z-index: 1;">
+                <h1>Oh! What is Aviation</h1>
+                <p class="pt-4">Aviation is the activities surrounding mechanical flight and the aircraft industry.
+                  Aircraft includes fixed-wing and rotary-wing types, morphable wings, wing-less lifting bodies, as well
+                  as lighter-than-air craft such as hot air balloons and airships.<br><br>
+
+                  Aviation began in the 18th century with the development of the hot air balloon, an apparatus capable
+                  of atmospheric displacement through buoyancy.<br>
+                  Ahmm!! It's just Not Airplanes👀
+                </p>
+                <br>
+                <p>
+                  General aviation includes all non-scheduled civil flying, both private and commercial. General
+                  aviation may include business flights, air charter, private aviation, flight training, ballooning,
+                  paragliding, parachuting, gliding, hang gliding, aerial photography, foot-launched powered hang
+                  gliders, air ambulance, crop dusting, charter flights, traffic reporting, police air patrols and
+                  forest fire fighting.
+                </p>
+                <h6>YES! Air Ambulance!
+                  You are Being lifted to Hospital using A Nice Narrow Body Jet! </h6>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+
+      </div>
+      <div class="d-flex flex-md-row justify-content-center  ">
+        <div class="box fw header borderj"></div>
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+    <section class="section-2 container-fluid p-0">
+
+      <div class="cover ">
+
+
+        <div class="content text-center">
+          <h1>Lets have a Glance of These Beautiful Machines!</h1>
+          <p>There are Mainly Four types of Aircrafts</p>
+
+        </div>
+      </div>
+
+      <div class="container-fluid text-center">
+
+        <div class="picwithdescription d-flex flex-md-row flex-wrap justify-content-center">
+
+
+
+          <!-- <div class="rect d-flex align-self-stretch ">
+                    <div class="card border-secondary mb-3 ml-2 mr-2 shadow-lg " style="width: 18rem;">
+                      <img src="images\cessnaa.jpg" class="card-img-top" alt="...">
+                      <div class="card-body text-secondary">
+                        <p class="card-text center">The Initial stage of a pilot always start with a Single Engine aircraft.Most single engine aircraft used for flight training are very simple to operate and therefore have fewer controls and less complex systems to understand.</p>
+                      </div>
+                    </div>
+                  </div> -->
+
+
+          <div class="rect d-flex align-self-stretch  ">
+            <div data-tilt data-tilt-scale="1.1" data-tilt-glare="true" data-tilt-maxGlare="0.5" data-tilt-axis="y"
+              data-tilt-axis="x" class="card border-0 mb-3 ml-2 mr-2  rounded-2 box w4 anim5" style="width: 18rem;">
+              <div id="carouselExampleSlidesOnly" class="carousel slide w-100 " data-ride="carousel" data-pause="false">
+
+                <div class="carousel-inner ">
+                  <div class="carousel-item active">
+                    <img src="images\cessnaa.jpg" class="card-img-top" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images\cessnaacock.jpg" class="card-img-top" alt="...">
+
+                  </div>
+                </div>
+                <div class="card-body text-secondary ">
+                  <p style="margin-top: auto;" class="card-text center">The Initial stage of a pilot always start with a
+                    Single Engine aircraft.Most single engine aircraft used for flight training are very simple to
+                    operate and therefore have fewer controls and less complex systems to understand.</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- carosel done -->
+
+
+
+          <!-- <div class="rect d-flex align-self-stretch">
+                    <div class="card border-secondary mb-3 ml-2 mr-2 shadow-lg " style="width: 18rem;">
+                      <img src="images\widebody.png" class="card-img-center" alt="...">
+                      <div class="card-body text-secondary " >
+                        <p class="card-text">Commercial airliners are used to haul passengers and freight on a scheduled basis between selected airports. They range in size from single-engine freight carriers to the Airbus A380 and in speed from below 200 miles per hour to supersonic, in the case of the Anglo-French.</p>
+                      </div>
+                    </div>
+                  </div> -->
+          <div class="rect d-flex align-self-stretch ">
+            <div data-tilt data-tilt-scale="1.1" data-tilt-glare="true" data-tilt-maxGlare="0.5" data-tilt-axis="y"
+              data-tilt-axis="x" class="card border-0 mb-3 ml-2 mr-2  rounded-2 box w4 anim5" style="width: 18rem;">
+              <div id="carouselExampleSlidesOnly " class="carousel slide w-100" data-ride="carousel" data-pause="false">
+
+                <div class="carousel-inner ">
+                  <div class="carousel-item active">
+                    <img src="images\widebody.png" class="card-img-top" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images\widebodycock.jpg" class="card-img-top" alt="...">
+
+                  </div>
+                </div>
+                <div class="card-body text-secondary ">
+                  <p style="margin-top: auto;" class="card-text center">Commercial airliners are used to haul passengers
+                    and freight on a scheduled basis between selected airports. They range in size from single-engine
+                    freight carriers to the Airbus A380 and in speed from below 200 miles per hour to supersonic, in the
+                    case of the Anglo-French.</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- <div class="rect d-flex align-self-stretch">
+                    <div class="card border-secondary mb-3 ml-2 mr-2 shadow-lg" style="width: 18rem;">
+                      <img src="images\F-16_1.jpg" class="card-img-top" alt="...">
+                      <div class="card-body text-secondary">
+                        <p class="card-text">A military aircraft is any fixed-wing or rotary-wing aircraft that is operated by a legal or insurrectionary armed service of any type. Military aircraft can be either combat or non-combat. It can be used to destroy enemy equipment or for self defence.</p>
+                      </div>
+                    </div>
+                  </div> -->
+
+
+          <div class="rect d-flex align-self-stretch ">
+            <div data-tilt data-tilt-scale="1.1" data-tilt-glare="true" data-tilt-maxGlare="0.5" data-tilt-axis="y"
+              data-tilt-axis="x" class="card border-0 mb-3 ml-2 mr-2  rounded-2 box w4 anim6 blue "
+              style="width: 18rem;">
+              <div id="carouselExampleSlidesOnly" class="carousel slide w-100" data-ride="carousel" data-pause="false">
+
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="images\F-16_1.jpg" class="card-img-top" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images\F-16_1cock.jpg" class="card-img-top" alt="...">
+
+                  </div>
+                </div>
+                <div class="card-body text-secondary ">
+                  <p style="margin-top: auto;" class="card-text center">A military aircraft is any fixed-wing or
+                    rotary-wing aircraft that is operated by a legal or insurrectionary armed service of any type.
+                    Military aircraft can be either combat or non-combat. It can be used to destroy enemy equipment or
+                    for self defence.</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- <div class="rect d-flex align-self-stretch">
+                    <div class="card border-secondary mb-3 ml-2 mr-2 shadow-lg" style="width: 18rem;">
+                      <img src="images\chopper.jpg" class="card-img-top" alt="...">
+                      <div class="card-body text-secondary">
+                        <p class="card-text">A helicopter is a type of rotorcraft in which lift and thrust are supplied by spinning rotors. This allows the helicopter to take off and land vertically, to hover, and to fly forward, backward and laterally. Used mostly in congested areas to hover around.</p>
+                      </div>
+                    </div>
+                  </div> -->
+
+          <div class="rect d-flex align-self-stretch ">
+            <div data-tilt data-tilt-scale="1.1" data-tilt-glare="true" data-tilt-maxGlare="0.5" data-tilt-axis="y"
+              data-tilt-axis="x" class="card border-0 mb-3 ml-2 mr-2  rounded-2 box w4 anim6 blue"
+              style="width: 18rem;">
+              <div id="carouselExampleSlidesOnly" class="carousel slide w-100" data-ride="carousel" data-pause="false">
+
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="images\chopper.jpg" class="card-img-top" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images\choppercock.jpg" class="card-img-top" alt="...">
+
+                  </div>
+                </div>
+                <div class="card-body text-secondary ">
+                  <p style="margin-top: auto;" class="card-text center">A helicopter is a type of rotorcraft in which
+                    lift and thrust are supplied by spinning rotors. This allows the helicopter to take off and land
+                    vertically, to hover, and to fly forward, backward and laterally. Used mostly in congested areas to
+                    hover around.</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+
+
+
+      </div>
+      </div>
+
+
+    </section>
+
+
+
+    <!-- <section class="sec-3"> -->
+    <!-- <div class="clouds">
+                  <img class="cloud1" src="images\pngfind.com-rain-cloud-png-6967.png" alt="">
+                  <img class="cloud2" src="images\pngfind.com-rain-cloud-png-6967.png" alt="">
+                  <img class="cloud3" src="images\pngfind.com-rain-cloud-png-6967.png" alt="">
+
+                </div> -->
+    <!-- <div class="section-3 container-fluid text-center">
+                <div class="covertext">
+                  <div class="textbody text-center">
+                    <h1 class="text-center">Some Inspirations Having Wings</h1>
+                    <p>These are some of the prominent personalities flying today and sharing their Experiences out. </p>
+                  </div>
+                </div> -->
+    <!-- <div class="row"> -->
+
+    <!-- <div class="testimonials d-flex flex-md-row flex-wrap justify-content-center">
+                      
+                        <div class="test1 text-center d-flex align-self-stretch ">
+                          <div class="card border-0" style="width: 18rem;">
+                            <img src="https://mentourpilot.com/wp-content/uploads/2020/03/Petter.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h6 class="card-title">Captain Petter Hornfeldt</h6>
+                              <p class="card-text">He is a senior swedish Analyst and an Instructor Pilot and Type Rating Pilot/Examiner. He's also one of the founders of The Airline Pilot Club and a YouTube star as Mentour Pilot.</p>
+                              <a href="https://www.youtube.com/channel/UCwpHKudUkP5tNgmMdexB3ow" class="btn btn-danger"><i class="fab fa-youtube" style="padding-right: 4px;"></i>Mentour Pilot</a>
+                            </div>
+                          </div>
+                        </div>
+
+
+
+
+                        <div class="test text-center ">
+                          <div id="carouselExampleIndicators " class="carousel slide" data-ride="carousel" style="width: 18rem;">
+                            
+                            <div class="carousel-inner  ">
+                              <div class="carousel-item active ">
+                                <div class="card border-0" style="width: 18rem;">
+                                  <img src="images\dutchpilotgirl.jpg" class="card-img-top" alt="...">
+                                  <div class="card-body">
+                                    <h6 class="card-title">Michelle Gooris</h6>
+                                    <p class="card-text">She's a 25-year-old pilot from the Netherlands. She has over 54,000 followers on Instagram. Showing that anyone can become a pilot if they work hard enough. Sharing view from the cockpit - and her jetsetting adventures on her days off. </p>
+                                    <a href="https://www.youtube.com/channel/UCKUNiU0D2u3yxNZZxBqa6bQ" class="btn btn-danger"><i class="fab fa-youtube" style="padding-right: 4px;"></i>DutchPilotGirl</a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="carousel-item ">
+                                <div class="card border-0" style="width: 18rem;">
+                                  <img src="images\maria.jpeg" class="card-img-top" alt="...">
+                                  <div class="card-body" >
+                                    <h6 class="card-title">Maria Fagerstrom</h6>
+                                    <p class="card-text" style="padding-bottom: 20%;">Better known as Maria the Pilot due to her huge and loyal following on social media, with 521,000 Instagram followers alone- posting jetsetting adventures on her days off.</p>
+                                    <a href="https://www.youtube.com/channel/UCFsiqjTNOu-rgtCAmhvzEOQ" class="btn btn-danger" "><i class="fab fa-youtube" style="padding-right: 4px;"></i>MariaThePilot</a>
+                                  </div>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="test text-center d-flex align-self-stretch ">
+                      <div class="card border-0" style="width: 18rem;">
+                        <img src="images\captainjoe.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <div class="card-title"><h6>Joe Diebolder</h6></div>
+                          <p class="card-text">He's a German based Commercial Pilot Working as Captain. He started his flying Career in 2005 being a captioin of A320 and B747(Current Type). He's currently working in CarGoLux, a big Freighter Airline.</p>
+                          <a href="https://www.youtube.com/channel/UC88tlMjiS7kf8uhPWyBTn_A" class="btn btn-danger"><i class="fab fa-youtube" style="padding-right: 4px;"></i>Captain Joe</a>
+                        </div>
+                      </div>
+                    </div>
+
+
+                  </div>
+                  
+
+
+                  </div>
+                  
+                  
+
+              </section>  -->
+
+    <section class="testimon ">
+      <div class="container testimon">
+
+        <div class="testi-title">
+          <h2 class="text-center">Some Personalities</h2>
+          <p class="text-center">Flying and Inspiring Millions</p>
+        </div>
+
+        <div class="testi-content d-flex flex-md-row flex-wrap justify-content-center">
+
+
+
+          <div class="testimonial-item col-sm-12 col-md-4 ">
+
+            <p class="text-center ">
+
+              He is a senior swedish Analyst and an Instructor Pilot and Type Rating Pilot/Examiner. He's also one of
+              the founders of The Airline Pilot Club and a YouTube star as Mentour Pilot.
+
+            </p>
+
+            <img src="https://mentourpilot.com/wp-content/uploads/2020/03/Petter.jpg"
+              class="testimonial-img mx-auto d-block" alt="" style="width: 8rem; height: auto;">
+            <h3 class="text-center">Captain Petter Hornfeldt</h3>
+            <h4 class="text-center">Instructor Pilot </h4>
+            <div class="d-flex flex-md-row justify-content-center">
+              <a href="https://www.youtube.com/channel/UCwpHKudUkP5tNgmMdexB3ow" class="btn btn-danger"
+                style="margin-top: 1rem;"><i class="fab fa-youtube" style="padding-right: 4px;"></i>Mentour Pilot</a>
+            </div>
+          </div>
+
+
+          <div class="testimonial-item col-sm-12 col-md-4">
+            <p class="text-center">
+
+              She's a 25-year-old pilot from the Netherlands. She has over 54,000 followers on Instagram. Sharing view
+              from the cockpit - and her jetsetting adventures on her days off.
+
+            </p>
+            <img src="images\dutchpilotgirl.jpg" class="testimonial-img mx-auto d-block" alt=""
+              style="width: 8rem; height: auto;">
+            <h3 class="text-center">Michelle Gooris</h3>
+            <h4 class="text-center">Boeing 737 &amp; Social Media Influencer</h4>
+            <div class="d-flex flex-md-row justify-content-center">
+              <a href="https://www.youtube.com/channel/UCKUNiU0D2u3yxNZZxBqa6bQ" class="btn btn-danger "
+                style="margin-top: 1rem;"><i class="fab fa-youtube" style="padding-right: 4px;"></i>DutchPilotGirl</a>
+            </div>
+          </div>
+
+
+
+
+
+
+          <div class="testimonial-item col-sm-12 col-md-4">
+            <p class="text-center">
+
+              He's a German based Commercial Pilot. He started his flying Career in 2005 being a captain ofand
+              B747(Currently). He's currently working in CarGoLux, a big Freighter Airline.
+
+            </p>
+            <img src="images\captainjoe.jpg" class="testimonial-img mx-auto d-block" alt=""
+              style="width: 8rem; height: auto;">
+            <h3 class="text-center">Joe Diebolder</h3>
+            <h4 class="text-center">Boeing 747 Captain</h4>
+            <div class="d-flex flex-md-row justify-content-center">
+              <a href="https://www.youtube.com/channel/UC88tlMjiS7kf8uhPWyBTn_A" class="btn btn-danger"
+                style="margin-top: 1rem;"><i class="fab fa-youtube" style="padding-right: 4px;"></i>Captain Joe</a>
+            </div>
+          </div>
+
+        </div>
+
+
+
+
+
+
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </main>
+
+  <footer>
+
+
+    <div class="container-fluid p-0">
+
+      <div class="row text-center">
+        <div class="col-md-5">
+
+          <h1 class="text-light text-left box w5 anim8 grey text-lg-left text text-sm-center" style="font-size:30px;">
+            About Us!
+          </h1>
+          <p class="text-muted text-left box w5 anim8 grey" style="font-size:14px;">
+            We are a Bunch of Tech-cum-Aviation Enthusiasts thrilled to Spread out some Glorious Attributes of this
+            Industry.
+            Flying in Air is Always a Thrilling experience !
+          </p>
+          <p class="text-left copyr box w5 h5 anim8 grey" style="font-size:14px;">Colored By a friend of Mine Diksha!
+          </p>
+
+        </div>
+        <div class="col-md-5">
+          <h4 class="text-light box w5 anim8 grey">
+            Newsletter
+          </h4>
+          <p class="text-muted box w5 anim8 grey">
+            Exploring skies is not a Bad Option
+          </p>
+          <form class="form-inline box w5 anim8 grey">
+            <div class="col pl-">
+              <div class="input-group pr-5">
+                <input type="text" class="form-control bg-dark text-white box w5 anim8 grey" placeholder="Email">
+                <div class="input-group-prepend">
+                  <div class="input-group-text">
+                    <i class="fa fa-arrow-right box w5 anim8 grey"></i>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </form>
+        </div>
+
+        <div class="col-md-2">
+          <h4 class="text-light box w5 anim8 grey">
+            Contact Us
+          </h4>
+          <p class="text-muted box w5 anim8 grey">
+            Perform a Touch and Go
+          </p>
+          <div class="column">
+            <i class="fab fa-facebook-f box w5 anim8 grey"></i>
+            <i class="fab fa-instagram box w5 anim8 grey"></i>
+            <i class="fab fa-twitter box w5 anim8 grey"></i>
+          </div>
+
+
+
+        </div>
+      </div>
+
+    </div>
+
+
+
+
+  </footer>
+
+
+
+
+
+
+
+  <script src="js/javascript.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous"></script>
+
+  <!-- animations -->
+
+
+
+  <!-- pan animations -->
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+    integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous">
+  </script>
+  <script src="jquery.scrollme.js"></script>
+  <!-- pan animations-->
+
+
+  <!-- scroll animations -->
+  <script src="tilt.jquery.js"></script>
+
+
+  <script>
+    var skroll = new Skroll()
+      .add(".header", {
+        animation: "zoomIn",
+        duration: 600
+      })
+      .add(".anim1", {
+        animation: "fadeInUp",
+        delay: 120,
+        duration: 600,
+        wait: 250
+      })
+      .add(".anim2", {
+        animation: "flipInX",
+        delay: 120,
+        duration: 750
+      })
+      .add(".anim3", {
+        animation: "rotateLeftIn",
+        delay: 100,
+        duration: 750
+      })
+      .add(".anim4", {
+        animation: "slideInLeft",
+        delay: 80,
+        duration: 800
+      })
+      .add(".anim5", {
+        animation: "growInLeft",
+        delay: 80,
+        duration: 1500,
+        easing: "cubic-bezier(0.37, 0.27, 0.24, 1.26)"
+      })
+      .add(".anim6", {
+        animation: "growInRight",
+        delay: 80,
+        duration: 1000,
+        easing: "cubic-bezier(0.37, 0.27, 0.24, 1.26)",
+      })
+      .addAnimation("spinIn", {
+        start: function (el) {
+          el.style["transform"] = "rotate(-360deg) scale(.2,.2)";
+          el.style["transform-origin"] = "50% 50%";
+          el.style["opacity"] = 0;
+        },
+        end: function (el) {
+          el.style["transform"] = "rotate(0deg) scale(1,1)";
+          el.style["opacity"] = 1;
+        }
+      })
+      .add(".anim7", {
+        animation: "spinIn",
+        delay: 80,
+        duration: 500,
+        easing: "cubic-bezier(0.37, 0.27, 0.24, 1.26)"
+      })
+      .add(".anim8", {
+        animation: "fadeInDown",
+        delay: 75,
+        duration: 150,
+        triggerBottom: 1,
+        easing: "cubic-bezier(0.37, 0.27, 0.24, 1.26)"
+      })
+      .init();
+  </script>
+
+
+  <!-- scroll animations end -->
+
+
+  <!-- animations end -->
+
+  <!-- navbar -->
+
+  <script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>
+  <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js'></script>
+  <script src="./scriptnav.js"></script>
+  <script type="text/javascript"></script>
+
+  <!-- navbar end -->
+
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+    integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous">
+  </script>
+
+
+  <script>
+    $(document).ready(function () {
+      // Add smooth scrolling to all links
+      $("a").on('click', function (event) {
+
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+
+          // Store hash
+          var hash = this.hash;
+
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function () {
+
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          });
+        } // End if
+      });
+    });
+  </script>
+
+</body>
+
+</html>
